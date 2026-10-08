@@ -4,6 +4,7 @@ import {
   featured,
   projects,
   experience,
+  recognition,
   education,
   skills,
 } from "@/data";
@@ -64,6 +65,14 @@ export default function Home() {
 
       <main id="top" className="mx-auto w-full max-w-4xl px-5">
         <section className="py-16 sm:py-28">
+          <Image
+            src="/abdullah.jpg"
+            alt="Portrait of Abdullah Berro"
+            width={720}
+            height={720}
+            priority
+            className="mb-6 h-28 w-28 rounded-full border border-border object-cover sm:h-32 sm:w-32"
+          />
           <p className="mb-4 font-mono text-sm text-accent">
             {profile.location}
           </p>
@@ -209,6 +218,40 @@ export default function Home() {
               <p className="mt-2 leading-relaxed text-muted">
                 {experience.text}
               </p>
+            </div>
+            <div>
+              <div className="flex flex-wrap justify-between gap-2">
+                <h3 className="font-semibold">{recognition.title}</h3>
+                <span className="font-mono text-sm text-muted">
+                  {recognition.date}
+                </span>
+              </div>
+              <p className="mt-2 leading-relaxed text-muted">
+                {recognition.text}{" "}
+                <a
+                  href={recognition.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-accent hover:underline"
+                >
+                  See the post
+                </a>
+              </p>
+              <a
+                href={recognition.link}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 block w-full max-w-xs"
+              >
+                <Image
+                  src="/techtalks-spotlight.jpg"
+                  alt="Abdullah Berro's TechTalks Intern Spotlight card for the SkillProof project"
+                  width={720}
+                  height={900}
+                  sizes="(min-width: 640px) 320px, 100vw"
+                  className="w-full rounded-xl border border-border"
+                />
+              </a>
             </div>
             <div>
               <div className="flex flex-wrap justify-between gap-2">

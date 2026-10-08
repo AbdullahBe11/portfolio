@@ -55,7 +55,7 @@ export const projects = [
   {
     name: "Coffee Shop Ordering System",
     tag: "Complete prototype",
-    stack: ["React", "Node.js", "Express", "MongoDB", "Stripe", "Vercel"],
+    stack: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
     text: "A React storefront with a persistent cart, a Node.js/Express REST API with 8 endpoints for menu, orders and payments, Stripe checkout and automated order-confirmation emails.",
   },
   {
@@ -83,6 +83,13 @@ export const experience = {
   org: "TechTalks",
   dates: "Aug 2026 – Oct 2026",
   text: "Led a 6-person team building SkillProof, from sprint planning and code review to authentication, authorization and CI. Details are in the featured project above.",
+};
+
+export const recognition = {
+  title: "TechTalks Intern Spotlight",
+  date: "October 2026",
+  text: "Named in TechTalks' Intern Spotlight, which recognizes interns for technical growth, consistency and ownership on real projects.",
+  link: "https://www.linkedin.com/posts/techtalks-lb_interns-spotlight-activity-7513322128428158976-1Ndg",
 };
 
 export const education = {
