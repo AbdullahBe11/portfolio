@@ -18,6 +18,12 @@ export const featured = {
     "The beta is live on Vercel and demo-ready. It hasn't had a public launch yet and has no real users.",
   live: "https://techtalks-skillproof.vercel.app",
   repo: "https://github.com/AbdullahBe11/techtalks-skillproof",
+  screenshots: [
+    { src: "/skillproof/landing.jpg", alt: "SkillProof landing page", caption: "Landing page" },
+    { src: "/skillproof/how-it-works.jpg", alt: "SkillProof how it works section", caption: "How it works" },
+    { src: "/skillproof/browse.jpg", alt: "SkillProof browse verified projects page", caption: "Browse verified projects" },
+    { src: "/skillproof/profile.jpg", alt: "SkillProof public candidate profile", caption: "Public candidate profile" },
+  ],
   stack: [
     "Next.js",
     "TypeScript",

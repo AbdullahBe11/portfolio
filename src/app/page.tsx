@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   profile,
   featured,
@@ -135,6 +136,23 @@ export default function Home() {
             <div className="mt-5 flex flex-wrap gap-2">
               {featured.stack.map((s) => (
                 <Tag key={s}>{s}</Tag>
+              ))}
+            </div>
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
+              {featured.screenshots.map((shot) => (
+                <figure key={shot.src}>
+                  <Image
+                    src={shot.src}
+                    alt={shot.alt}
+                    width={1536}
+                    height={674}
+                    sizes="(min-width: 640px) 50vw, 100vw"
+                    className="w-full rounded-lg border border-border"
+                  />
+                  <figcaption className="mt-2 text-xs text-muted">
+                    {shot.caption}
+                  </figcaption>
+                </figure>
               ))}
             </div>
             <h4 className="mb-3 mt-8 text-sm font-semibold">
