@@ -4,6 +4,7 @@ export const profile = {
   location: "Beirut, Lebanon",
   email: "aboudiberro33@gmail.com",
   github: "https://github.com/AbdullahBe11",
+  linkedin: "https://www.linkedin.com/in/abdullah-berro-b2646a17a",
   cv: "/Abdullah_Berro_CV.pdf",
   summary:
     "I'm a Computer Science graduate (LIU, Spring 2026) who led a 6-person team building SkillProof, a live Next.js, TypeScript and PostgreSQL platform where recruiters find candidates through verified project work. I'm looking for an entry-level role in full-stack, frontend or backend development.",
@@ -14,7 +15,7 @@ export const featured = {
   blurb:
     "A platform where candidates publish projects with evidence links, verifiers review them and approve or reject with rubric scores, and recruiters browse verified candidates, shortlist them and send interest.",
   status:
-    "The MVP is live and demo-ready. It hasn't had a public launch yet and has no real users.",
+    "The beta is live on Vercel and demo-ready. It hasn't had a public launch yet and has no real users.",
   live: "https://techtalks-skillproof.vercel.app",
   repo: "https://github.com/AbdullahBe11/techtalks-skillproof",
   stack: [
@@ -49,7 +50,7 @@ export const projects = [
     name: "Coffee Shop Ordering System",
     tag: "Complete prototype",
     stack: ["React", "Node.js", "Express", "MongoDB", "Stripe", "Vercel"],
-    text: "A React storefront with a persistent cart, a Node.js/Express REST API with 8 endpoints for menu, orders and payments, Stripe checkout and automated order-confirmation emails. Deployed to Vercel as a prototype.",
+    text: "A React storefront with a persistent cart, a Node.js/Express REST API with 8 endpoints for menu, orders and payments, Stripe checkout and automated order-confirmation emails.",
   },
   {
     name: "Gym Membership Mobile App",

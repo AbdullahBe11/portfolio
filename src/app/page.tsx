@@ -96,6 +96,14 @@ export default function Home() {
             >
               GitHub
             </a>
+            <a
+              href={profile.linkedin}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-lg border border-border px-5 py-2.5 text-sm font-semibold hover:border-accent"
+            >
+              LinkedIn
+            </a>
           </div>
         </section>
 
@@ -145,6 +153,9 @@ export default function Home() {
           <h2 className="mb-6 mt-14 font-mono text-sm uppercase tracking-widest text-accent">
             Other projects
           </h2>
+          <p className="-mt-2 mb-6 text-sm text-muted">
+            These projects run locally and aren&apos;t deployed publicly.
+          </p>
           <div className="grid gap-4 sm:grid-cols-2">
             {projects.map((p) => (
               <article
@@ -234,6 +245,14 @@ export default function Home() {
               className="rounded-lg border border-border px-5 py-2.5 text-sm font-semibold hover:border-accent"
             >
               github.com/AbdullahBe11
+            </a>
+            <a
+              href={profile.linkedin}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-lg border border-border px-5 py-2.5 text-sm font-semibold hover:border-accent"
+            >
+              LinkedIn
             </a>
           </div>
         </Section>
